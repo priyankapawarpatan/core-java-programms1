@@ -1,0 +1,41 @@
+WAP to create calculator using switch case.
+package excercise1;
+
+import java.util.Scanner;
+
+public class test {
+	public static void main(String[] args) {
+		int result;
+		int n1;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First number ");
+		n1=sc.nextInt();
+		int n2;
+		System.out.println("Enter Second number ");
+		n2=sc.nextInt();
+		String symbol;
+		System.out.println("select symbol (+,-,*,/)");
+		symbol=sc.next();
+		switch(symbol) {
+		case "+" :result=n1+n2;
+		System.out.println("Addition is =" + result);
+		break;
+		case "-" :result=n1-n2;
+		System.out.println("Substraction is =" + result);
+		break;
+		case "*" :result=n1*n2;
+		System.out.println("Multiplication is is =" + result);
+		break;
+		case "/" :result=n1/n2;
+		System.out.println("Division  is =" + result);
+		break;
+		default:System.out.println("Invalid symbol");
+		
+		}
+		
+	}
+
+}
+
+
+
