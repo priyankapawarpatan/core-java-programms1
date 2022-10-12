@@ -1,0 +1,15 @@
+WAP to swap two numbers with using third variable
+package excercise1;
+
+public class swapex {
+
+	public static void main(String[] args) {
+		int a=10,b=20,t;
+		t=a;
+		a=b;
+		b=t;
+		System.out.println("a ="   +a);
+		System.out.println("b ="  +b);
+	}
+
+}
