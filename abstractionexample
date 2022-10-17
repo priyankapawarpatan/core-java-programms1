@@ -1,0 +1,28 @@
+how to achieve abstraction by using abstract class.
+package com.java;
+
+public abstract class pen {
+	public abstract void write();
+	public abstract void refill();
+
+}package com.java;
+
+public class fountainpen extends pen {
+	public void write() {
+		System.out.println("i am good listner");
+	}
+	public void refill() {
+		System.out.println("reusability");
+	}
+	
+	 
+
+	public static void main(String[] args) {
+		 fountainpen f=new  fountainpen();
+         f.write();
+         f.refill();
+         
+	}
+
+}
+
